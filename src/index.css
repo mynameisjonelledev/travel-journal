@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Inter;
+}
+
+.header-con {
+  background-color: #F55A5A;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.globe-logo {
+  width: 24px;
+  
+}
+
+.logo-and-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-span {
+  color: white;
+  padding-left: 5px;
+}
+
