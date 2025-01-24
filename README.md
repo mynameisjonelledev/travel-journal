@@ -1,8 +1,21 @@
-# React + Vite
+# Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Travel Journal project that allows users to document and explore travel destinations interactively. This project is part of a learning exercise made possible through Scrimba's tutorials.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+Check out the live demo here: [Travel Journal Demo](https://mynameisjonelledev.github.io/travel-journal)  
+
+
+
+## Features
+- Dynamic React components for travel destinations
+- Responsive design for mobile and desktop
+- User-friendly interface
+- Interactive travel cards with details like location, description, and images
+
+
+## Technologies Used
+- React (with Vite for setup)
+- JavaScript (ES6+)
+- HTML5 & CSS3
