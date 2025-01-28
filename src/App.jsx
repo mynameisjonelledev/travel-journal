@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Entry from "./components/Entry";
 import data from "./data";
+import Footer from "./components/Footer";
 
 const App = () => {
 
@@ -8,12 +9,16 @@ const App = () => {
     return (
       <Entry 
         key = {entry.id}
-        img = {entry.img}
+        {...entry}
+
+        // entry = {entry}
+
+       /* img = {entry.img}
         title = {entry.title}
         country = {entry.country}
         googleMapsLink = {entry.googleMapsLink}
         dates = {entry.dates}
-        text = {entry.text}
+        text = {entry.text} */
       />
 
     );
@@ -23,6 +28,7 @@ const App = () => {
     <>
     <Header />
     {entryElements}
+    <Footer />
     </>
 
   );

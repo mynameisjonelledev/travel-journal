@@ -98,3 +98,12 @@ body {
   overflow-wrap: break-word;
 }
 
+.footer-con {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgb(245, 90, 90);
+  color: white;
+  font-size: 15px;
+}
+
